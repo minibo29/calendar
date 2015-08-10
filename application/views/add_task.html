@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id="add-task" class="form-signin" role="form" action="task/add">
+            <div class=".col-md-6">
+                <h2>Форма</h2>
+                <table>
+                    <tr>
+                        <td><h4>Задача</h4></td>
+                        <td><input type="text" name="task" class="form-control" placeholder="Задача"/></td>
+                    </tr>
+                    <tr>
+                        <td><h4>План виконання</h4></td>
+                        <td><input type="text" name="performance" class="form-control" placeholder="План виконання"/></td>
+                    </tr>
+                    <tr>
+                        <td><h4>Термін виконання</h4></td>
+                        <td><input type="text" name="deadline" class="form-control" placeholder="Термін виконання"/></td>
+                    </tr>
+                    <tr>
+                        <td><h4>Пріоритет</h4></td>
+                        <td>
+                            <select name="priority" form="add-task">
+                                <option value="1">низька</option>
+                                <option value="2">середня</option>
+                                <option value="3">critically</option>
+                                <option value="4">blocker</option>
+                            </select>
+                        </td>
+                    </tr>										
+                </table>
+                <input type="submit" name="submit" id="submit" value="Submit" class="btn">
+            </div>
+        </form>
+    </body>
+</html>
+
+    
+    
